@@ -13,7 +13,7 @@ import org.junit.Test;
 
 public class AppTest {
 	@Test
-	public static void main(String[] args) throws Exception {
+	public void testpermission() throws Exception {	
 		String excelPath="C:/Users/Radiant/Desktop/output/";
 		DateFormat dateFormat1 = new SimpleDateFormat("MMddyyyy");
 		  Date CUR1 = new Date();
