@@ -14,7 +14,7 @@ import org.junit.Test;
 public class AppTest {
 	@Test
 	public void testpermission() throws Exception {	
-		String excelPath="C:/Users/Radiant/Desktop/output/";
+		String excelPath="/opt/Reference/source/";
 		DateFormat dateFormat1 = new SimpleDateFormat("MMddyyyy");
 		  Date CUR1 = new Date();
 		  File filePath = new File(excelPath+dateFormat1.format(CUR1));
